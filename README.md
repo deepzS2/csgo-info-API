@@ -24,8 +24,11 @@ or
 yarn install
 ```
 
+After that you can create a `.env` file on that directory: `backend/.env`. Use the [.env.example](backend/.env.example) to create your own .env.
+P.S.: You can only change the `PRIVATE_KEY` for the JWT authentication and `TYPEORM_DATABASE` to choosing the database directory.
+
 ### Built With
 
 - [Nest.js](https://nestjs.com/) - Framework used on back-end.
 - [Gamedig](https://www.npmjs.com/package/gamedig) - Query library used to track information.
-- [Create React App](https://github.com/facebook/create-react-app) - Boostraped with ReactJS.
+- [Create React App](https://github.com/facebook/create-react-app) - Bootstrapped with ReactJS.

@@ -1,5 +1,5 @@
 node_modules
-requirements.node_modules
+requirements.md
 **/node_modules
 **/.env
 **/dist
