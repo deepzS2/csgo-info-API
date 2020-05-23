@@ -27,6 +27,23 @@ yarn install
 After that you can create a `.env` file on that directory: `backend/.env`. Use the [.env.example](backend/.env.example) to create your own .env.
 P.S.: You can only change the `PRIVATE_KEY` for the JWT authentication and `TYPEORM_DATABASE` to choosing the database directory.
 
+After that you can run `yarn build && yarn start:prod` or `npm run build && npm run start:prod`.
+
+And open a new terminal and start frontend: 
+```bash
+  cd frontend
+
+  yarn start
+```
+
+or
+
+```bash
+  cd frontend
+
+  npm start
+```
+
 ### Built With
 
 - [Nest.js](https://nestjs.com/) - Framework used on back-end.
